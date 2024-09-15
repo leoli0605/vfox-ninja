@@ -3,15 +3,15 @@ PLUGIN = {}
 
 --- !!! MUST BE SET !!!
 --- Plugin name
-PLUGIN.name = "your plugin name"
+PLUGIN.name = "ninja"
 --- Plugin version
-PLUGIN.version = "0.0.1"
+PLUGIN.version = "0.1.0"
 --- Plugin homepage
-PLUGIN.homepage = "https://github.com/version-fox/vfox-plugin-template"
+PLUGIN.homepage = "https://github.com/leoli0605/vfox-ninja"
 --- Plugin license, please choose a correct license according to your needs.
 PLUGIN.license = "Apache 2.0"
 --- Plugin description
-PLUGIN.description = "your plugin description"
+PLUGIN.description = "Ninja plugin for the vfox version manager"
 
 
 --- !!! OPTIONAL !!!
