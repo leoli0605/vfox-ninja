@@ -3,7 +3,7 @@ RUN apt-get update && apt-get install -y tzdata ca-certificates
 ENV TZ=Asia/Taipei
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-ARG USER_NAME=viewsec
+ARG USER_NAME=user
 ARG USER_UID=1000
 ARG USER_GID=1000
 
